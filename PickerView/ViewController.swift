@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     let MAX_ARRAY_NUM = 10
-    let PICKER_VIEW_COLUMN = 1
+    let PICKER_VIEW_COLUMN = 2
     let PICKER_VIEW_HEIGHT:CGFloat = 120
     var imageArray = [UIImage?]()
     var imageFileName = [ "cat.jpeg", "cat2.png", "catworm.jpeg", "devilcat.jpeg", "fanxycat.jpeg", "hmmchitcat.jpeg", "ironcat.jpeg", "nerdcat.jpeg", "sadcat.jpeg", "sadcat2.jpeg" ]
@@ -61,8 +61,12 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     // row인덱스의 항목을 선택했을 때
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        lblImageFileName.text = imageFileName[row]
-        imageView.image = imageArray[row]
+        if (component==0) {
+            lblImageFileName.text = imageFileName[row]
+        }
+        else {
+            imageView.image = imageArray[row]
+        }
     }
 
 
