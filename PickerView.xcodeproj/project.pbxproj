@@ -17,6 +17,16 @@
 		6DE8A0EC29DE48C500AD3429 /* PickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE8A0EB29DE48C500AD3429 /* PickerViewTests.swift */; };
 		6DE8A0F629DE48C600AD3429 /* PickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE8A0F529DE48C600AD3429 /* PickerViewUITests.swift */; };
 		6DE8A0F829DE48C600AD3429 /* PickerViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE8A0F729DE48C600AD3429 /* PickerViewUITestsLaunchTests.swift */; };
+		6DE8A10F29DE495A00AD3429 /* ironcat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE8A10529DE495A00AD3429 /* ironcat.jpeg */; };
+		6DE8A11029DE495A00AD3429 /* devilcat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE8A10629DE495A00AD3429 /* devilcat.jpeg */; };
+		6DE8A11129DE495A00AD3429 /* hmmchitcat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE8A10729DE495A00AD3429 /* hmmchitcat.jpeg */; };
+		6DE8A11229DE495A00AD3429 /* catworm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE8A10829DE495A00AD3429 /* catworm.jpeg */; };
+		6DE8A11329DE495A00AD3429 /* fanxycat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE8A10929DE495A00AD3429 /* fanxycat.jpeg */; };
+		6DE8A11429DE495A00AD3429 /* nerdcat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE8A10A29DE495A00AD3429 /* nerdcat.jpeg */; };
+		6DE8A11529DE495A00AD3429 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE8A10B29DE495A00AD3429 /* cat.jpeg */; };
+		6DE8A11629DE495A00AD3429 /* sadcat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE8A10C29DE495A00AD3429 /* sadcat.jpeg */; };
+		6DE8A11729DE495A00AD3429 /* sadcat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE8A10D29DE495A00AD3429 /* sadcat2.jpeg */; };
+		6DE8A11829DE495A00AD3429 /* cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE8A10E29DE495A00AD3429 /* cat2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		6DE8A0F129DE48C600AD3429 /* PickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE8A0F529DE48C600AD3429 /* PickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewUITests.swift; sourceTree = "<group>"; };
 		6DE8A0F729DE48C600AD3429 /* PickerViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DE8A10529DE495A00AD3429 /* ironcat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ironcat.jpeg; sourceTree = "<group>"; };
+		6DE8A10629DE495A00AD3429 /* devilcat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = devilcat.jpeg; sourceTree = "<group>"; };
+		6DE8A10729DE495A00AD3429 /* hmmchitcat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hmmchitcat.jpeg; sourceTree = "<group>"; };
+		6DE8A10829DE495A00AD3429 /* catworm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catworm.jpeg; sourceTree = "<group>"; };
+		6DE8A10929DE495A00AD3429 /* fanxycat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fanxycat.jpeg; sourceTree = "<group>"; };
+		6DE8A10A29DE495A00AD3429 /* nerdcat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nerdcat.jpeg; sourceTree = "<group>"; };
+		6DE8A10B29DE495A00AD3429 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
+		6DE8A10C29DE495A00AD3429 /* sadcat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sadcat.jpeg; sourceTree = "<group>"; };
+		6DE8A10D29DE495A00AD3429 /* sadcat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sadcat2.jpeg; sourceTree = "<group>"; };
+		6DE8A10E29DE495A00AD3429 /* cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,7 @@
 		6DE8A0D029DE48C400AD3429 /* PickerView */ = {
 			isa = PBXGroup;
 			children = (
+				6DE8A10429DE490200AD3429 /* images */,
 				6DE8A0D129DE48C400AD3429 /* AppDelegate.swift */,
 				6DE8A0D329DE48C400AD3429 /* SceneDelegate.swift */,
 				6DE8A0D529DE48C400AD3429 /* ViewController.swift */,
@@ -128,6 +149,23 @@
 				6DE8A0F729DE48C600AD3429 /* PickerViewUITestsLaunchTests.swift */,
 			);
 			path = PickerViewUITests;
+			sourceTree = "<group>";
+		};
+		6DE8A10429DE490200AD3429 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6DE8A10B29DE495A00AD3429 /* cat.jpeg */,
+				6DE8A10E29DE495A00AD3429 /* cat2.png */,
+				6DE8A10829DE495A00AD3429 /* catworm.jpeg */,
+				6DE8A10629DE495A00AD3429 /* devilcat.jpeg */,
+				6DE8A10929DE495A00AD3429 /* fanxycat.jpeg */,
+				6DE8A10729DE495A00AD3429 /* hmmchitcat.jpeg */,
+				6DE8A10529DE495A00AD3429 /* ironcat.jpeg */,
+				6DE8A10A29DE495A00AD3429 /* nerdcat.jpeg */,
+				6DE8A10C29DE495A00AD3429 /* sadcat.jpeg */,
+				6DE8A10D29DE495A00AD3429 /* sadcat2.jpeg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +272,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE8A11529DE495A00AD3429 /* cat.jpeg in Resources */,
+				6DE8A10F29DE495A00AD3429 /* ironcat.jpeg in Resources */,
 				6DE8A0E129DE48C500AD3429 /* LaunchScreen.storyboard in Resources */,
+				6DE8A11629DE495A00AD3429 /* sadcat.jpeg in Resources */,
+				6DE8A11029DE495A00AD3429 /* devilcat.jpeg in Resources */,
+				6DE8A11129DE495A00AD3429 /* hmmchitcat.jpeg in Resources */,
 				6DE8A0DE29DE48C500AD3429 /* Assets.xcassets in Resources */,
+				6DE8A11829DE495A00AD3429 /* cat2.png in Resources */,
+				6DE8A11429DE495A00AD3429 /* nerdcat.jpeg in Resources */,
+				6DE8A11229DE495A00AD3429 /* catworm.jpeg in Resources */,
 				6DE8A0D929DE48C400AD3429 /* Main.storyboard in Resources */,
+				6DE8A11729DE495A00AD3429 /* sadcat2.jpeg in Resources */,
+				6DE8A11329DE495A00AD3429 /* fanxycat.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
